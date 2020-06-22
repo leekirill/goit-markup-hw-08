@@ -1,0 +1,11 @@
+.nav__list {
+  text-align: center;
+
+  @extend %list;
+
+  margin-top: 60px;
+
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
+}

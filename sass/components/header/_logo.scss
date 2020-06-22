@@ -1,0 +1,18 @@
+.logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: $main-color;
+
+  &__accent {
+    color: #212121;
+  }
+}
