@@ -1,0 +1,9 @@
+.team {
+  background-color: $bg-secondary;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.team__person {
+  @extend %list;
+}

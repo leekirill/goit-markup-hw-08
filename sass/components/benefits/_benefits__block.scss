@@ -1,0 +1,9 @@
+.benefits__block {
+  @extend %list;
+
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 60px;
+  }
+}

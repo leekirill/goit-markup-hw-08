@@ -2,9 +2,19 @@ $main-color: #2196f3;
 $bg-white: #fff;
 $secondary-color: #212121;
 $grey: #757575;
+$bg-secondary: #f5f4fa;
+$icon-color: #afb1b8;
+$footer-bg: #2f303a;
 
 %list {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+%container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }

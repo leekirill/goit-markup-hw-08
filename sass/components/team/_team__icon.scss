@@ -1,0 +1,8 @@
+.team__icon {
+  width: 20px;
+  height: 20px;
+
+  @extend %list;
+
+  fill: $icon-color;
+}

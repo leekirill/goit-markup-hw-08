@@ -1,0 +1,20 @@
+.button__primary {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+
+  display: flex;
+  padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: $main-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
