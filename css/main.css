@@ -326,13 +326,7 @@
 .clients__brand {
   width: 210px;
   height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.clients__logotype {
-  fill: #afb1b8;
 }
 
 .clients__logotype-link {
@@ -347,6 +341,14 @@
           align-items: center;
   width: 210px;
   height: 90px;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients__logotype-link:hover, .clients__logotype-link:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 .footer {
@@ -453,6 +455,52 @@
   color: #fff;
   display: block;
   margin-bottom: 20px;
+}
+
+.footer__form-input {
+  width: 450px;
+  height: 50px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer__icon-send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: #fff;
+}
+
+.footer__button {
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 0.06em;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2196f3;
 }
 
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
