@@ -18,3 +18,8 @@ $footer-bg: #2f303a;
   padding-left: 15px;
   padding-right: 15px;
 }
+
+%hover {
+  background-color: $main-color;
+  color: $bg-white;
+}

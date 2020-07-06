@@ -11,6 +11,11 @@
   padding-right: 15px;
 }
 
+.team__social-icon:hover, .team__social-icon:focus, .footer__social-icon:hover, .footer__social-icon:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
 .header {
   background-color: #fff;
 }
@@ -294,11 +299,27 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 28px;
+  margin-top: 16px;
+}
+
+.team__social-icon {
+  background: transparent;
+  width: 44px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
 }
 
 .team__social-icon:not(:last-child) {
-  margin-right: 34px;
+  margin-right: 10px;
 }
 
 .clients__heading {
@@ -501,6 +522,7 @@
   border-radius: 4px;
   color: #fff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
