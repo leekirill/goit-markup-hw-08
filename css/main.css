@@ -9,6 +9,7 @@
   padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
 }
 
 .team__social-icon:hover, .team__social-icon:focus, .footer__social-icon:hover, .footer__social-icon:focus {
