@@ -1,0 +1,21 @@
+.team__social-link {
+  @extend %list;
+
+  background: transparent;
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &:hover,
+  &:focus {
+    @extend %hover;
+  }
+}

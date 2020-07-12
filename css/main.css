@@ -1,4 +1,4 @@
-.nav__list, .contact-list, .benefits__block, .benefits__list, .team__person, .team__list, .team__icon, .team__social-list, .team__social-icon, .clients__list, .footer__list, .footer__social-list {
+.nav__list, .contact-list, .benefits__block, .benefits__list, .team__person, .team__list, .team__icon, .team__social-list, .team__social-link, .clients__list, .footer__list, .footer__social-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -12,9 +12,9 @@
   text-align: center;
 }
 
-.team__social-icon:hover, .team__social-icon:focus, .footer__social-icon:hover, .footer__social-icon:focus {
+.team__social-link:hover, .team__social-link:focus, .footer__social-icon:hover, .footer__social-icon:focus {
   background-color: #2196f3;
-  color: #fff;
+  fill: #fff;
 }
 
 .header {
@@ -138,11 +138,14 @@
 }
 
 .burger {
-  background-image: url(../images/menu_40px.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 40px;
   height: 40px;
+  fill: #212121;
+}
+
+.burger:hover, .burger:focus {
+  fill: #2196f3;
+  cursor: pointer;
 }
 
 .hero {
@@ -290,7 +293,6 @@
 .team__icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
 }
 
 .team__social-list {
@@ -303,8 +305,9 @@
   margin-top: 16px;
 }
 
-.team__social-icon {
+.team__social-link {
   background: transparent;
+  fill: #afb1b8;
   width: 44px;
   height: 44px;
   display: -webkit-box;
@@ -319,7 +322,7 @@
   border-radius: 50%;
 }
 
-.team__social-icon:not(:last-child) {
+.team__social-link:not(:last-child) {
   margin-right: 10px;
 }
 

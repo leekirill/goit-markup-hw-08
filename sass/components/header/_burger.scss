@@ -1,7 +1,12 @@
 .burger {
-  background-image: url(../images/menu_40px.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 40px;
   height: 40px;
+
+  fill: $secondary-color;
+
+  &:hover,
+  &:focus {
+    fill: $main-color;
+    cursor: pointer;
+  }
 }
