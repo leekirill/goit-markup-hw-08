@@ -24,3 +24,7 @@ $footer-bg: #2f303a;
   background-color: $main-color;
   fill: #fff;
 }
+
+%animation {
+  transition: 0.15s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
