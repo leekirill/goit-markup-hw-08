@@ -26,6 +26,10 @@
   background-color: #fff;
 }
 
+.header__menu--burger {
+  width: 100%;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -36,6 +40,15 @@
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -149,14 +162,17 @@
   left: 0px;
   top: 0px;
   background-color: rgba(0, 0, 0, 0.2);
+  overflow-y: hidden;
 }
 
 .modal {
   position: absolute;
   width: 450px;
   height: 609px;
-  left: 15px;
-  top: 93px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -354,6 +370,7 @@
   position: absolute;
   top: -20px;
   left: 55px;
+  color: #2196f3;
 }
 
 .modal__form-input:focus ~ .modal__form-icon {
@@ -371,6 +388,7 @@
   position: absolute;
   top: -20px;
   left: 55px;
+  color: #2196f3;
 }
 
 .modal__form-policy {
@@ -398,15 +416,40 @@
   background-color: #2196f3;
 }
 
-.burger {
+.icon-menu {
   width: 40px;
   height: 40px;
   fill: #212121;
 }
 
-.burger:hover, .burger:focus {
+.icon-menu:hover, .icon-menu:focus {
   fill: #2196f3;
-  cursor: pointer;
+}
+
+.icon-close {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-close:hover, .icon-close:focus {
+  fill: #2196f3;
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
 }
 
 .hero {
